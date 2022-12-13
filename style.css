@@ -1,0 +1,275 @@
+body,html{
+    height: 100vh;
+    margin: 0px;
+    padding:0px;
+    background-color: #fecaca;
+}
+
+.main-bar{                                      /*Side-bar*/
+    display: inline-grid;
+    width: 15%;
+
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 5px;
+    background-color: #b91c1c;
+    padding-left: 29px;
+    gap: 17px;
+    grid-auto-rows:500px;
+}
+                                       
+img{                                       /*sidebar logo*/
+    width: 60px;
+    height: 60px;
+}
+
+
+.sidebar{
+
+    height: 430px;
+
+}
+
+.settings{
+    padding-top: 42px;
+    display: inline-grid;
+    grid-auto-rows: 20px;
+    gap: 48px;
+    width: 100%;
+    height: 40%;
+    font-weight: 900;
+    color:white;
+    font-size:30px;
+}   
+
+
+.sub-sidebar{
+    padding-top: 64px;
+    display: grid;
+    grid-auto-rows: 20px;
+    gap: 48px;
+    font-weight: 900;
+    color: white;
+    font-size: 30px
+}
+
+
+.page{
+    display: inline-grid;
+    position: absolute;
+    width: 85%;
+}
+
+.Dashboard{                                   
+    display: flex;
+    padding-right: 10px;
+    gap:2px;
+}
+
+.Dashboard > div{
+    font-weight: 900;
+    align-self: center;
+    font-weight: 900px;
+    font-size:30px;
+    font-family: 'Tangerine', serif;
+
+}
+
+/*Nav-bar and user-info*/
+
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-rows: 50px 100px;
+    background-color: #ef4444;
+   
+}
+
+
+.bar{
+    display: grid;
+    grid-template-columns: 40px 900px 0.25fr repeat(2,0.15fr);
+    gap: 39px;
+    padding-left: 75px;
+
+}
+
+.alarmbell-icon > img{
+     height: 40px;
+     width: 40px;
+}
+
+.alarmbell-icon{
+    justify-self: end;
+}
+
+
+.icon > img{
+    width: 40px;
+    height: 40px;
+}
+
+.search{
+    background-color: #d1d5db;
+    border-radius: 100px;
+    box-shadow: 3px 4px 3px 0px rgba(10, 7, 7, 0.792);
+}
+
+.user-dp{
+    background-color: blueviolet;
+    border-radius: 100px;
+    width: 40px;
+}
+
+.username1{
+     font-size: 25px;
+     justify-self:start;
+     align-self: center;
+}
+
+ /*sub header*/
+
+ 
+
+
+.userinfo{
+    display: grid;
+    grid-template-columns: 60px 800px 0.25fr repeat(2,0.15fr);
+    gap: 60px;
+    padding-left: 75px;
+    height: 100px;
+}
+
+.alarmbell-icon > img{
+     height: 40px;
+     width: 40px;
+}
+
+.alarmbell-icon{
+    justify-self: end;
+}
+
+
+.icon > img{
+    width: 40px;
+    height: 40px;
+}
+
+.search{
+    background-color: #d1d5db;
+    border-radius: 100px;
+}
+
+.icon2{
+    background-color: blueviolet;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.username2{
+     font-size: 50px;
+     font-weight: 900;
+     justify-self:start;
+     align-self: end;
+
+}
+
+.book{
+    height: fit-content;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    align-self: center;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+.board{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.action-page{
+   padding: 10px;
+   flex-grow:3;
+   width: 1400px;
+   display: grid;
+   grid-template:repeat(3,1fr)/repeat(2,600px);
+   gap: 30px;
+   justify-content:space-around;
+   height: 80vh;
+   padding-top: 40px;
+
+
+}
+
+.action-page > div{
+
+    font-weight:lighter;
+    font-size: 20px;
+    background-color:rgb(236, 219, 219);
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px 0px rgba(10, 7, 7, 0.792);
+    padding-top: 10px;
+    text-align:center;
+    padding-top: 10px;
+    color: rgba(10, 7, 7, 0.7);
+     
+}
+
+h3{
+    font-weight: 900;
+    font-size: 25px;
+    color: black;
+    
+}
+
+.rigth-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    
+    flex-grow: 1;
+}
+
+h2{
+    font-size: 20px;
+    font-style: italic;
+    background-color: #fecaca;
+    margin: 0px;
+}
+
+
+.rigth-bar >div{
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.people{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border:1px solid rgb(49, 47, 47);
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: aquamarine;
+}
+
+.peeps{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
